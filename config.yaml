@@ -1,0 +1,7 @@
+model_list:
+  - model_name: gpt-4o-mini
+    litellm_params:
+      model: openrouter/openai/gpt-4o-mini
+      api_key: os.environ/OPENROUTER_API_KEY
+general_settings:
+  master_key: sk-1234

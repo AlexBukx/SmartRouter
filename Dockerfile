@@ -1,4 +1,4 @@
-FROM ghcr.io/berriai/litellm:v1.44.27
+FROM ghcr.io/berriai/litellm:v1.44.27-stable
 
 WORKDIR /app
 

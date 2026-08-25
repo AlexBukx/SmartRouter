@@ -1,10 +1,8 @@
-FROM ghcr.io/berriai/litellm:v1.44.27-stable
+FROM ghcr.io/berriai/litellm:main-latest
 
 WORKDIR /app
 
 COPY config.yaml /app/config.yaml
-
-ENV PORT=4000
 
 EXPOSE 4000
 

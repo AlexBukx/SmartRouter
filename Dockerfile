@@ -1,4 +1,6 @@
-FROM ghcr.io/berriai/litellm:main-latest
+# Usa un'immagine stabile specifica che sappiamo funzionare su Railway
+# La versione 1.72.6-stable è stata segnalata come funzionante per il deploy dell'UI
+FROM ghcr.io/berriai/litellm:v1.72.6-stable
 
 WORKDIR /app
 
